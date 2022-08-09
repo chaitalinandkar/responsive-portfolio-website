@@ -1,32 +1,30 @@
-.Header .header-image{
-  width: 30%;
-  height: 500px;
-  background-image: url(Images/dagaduseth.jpg);
+ .header-image{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover;
-  margin: 20px 40px;
+  box-shadow: 10px 10px 10px rgba(0,0,0, 0.4);
+  margin: 0px 30px 0px 300px;
+  max-width: 800px;
+  max-height: 800px;
 }
-.Header{
+.row{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 .header-details{
   text-align: center;
-  margin-left: 110px;
+  margin-right: 180px;
 }
-.Header .header-details h1{
-  font-size: 40px;
-  /* margin: 150px 0 20px 300px; */
+ .header-details h1{
+  font-size: 50px; 
 }
-.Header .header-details h2{
-  font-size: 50px;
-  /* margin: 20px 0 20px 130px; */
+ .header-details h2{
+  font-size: 90px;
   color: rgb(240, 53, 125);
 }
-.Header .header-details p {
-  font-size: 25px;
-  /* margin: 30px 0 0 230px; */
+ .header-details p {
+  font-size: 50px;
 }

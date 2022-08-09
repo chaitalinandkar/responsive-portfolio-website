@@ -1,5 +1,5 @@
 .NavigationBar{
-  padding: 20px 10%;
+  padding: 10px 5%;
 }
 .logo{
   max-width: 250px;
@@ -18,7 +18,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 18px;
   position: relative;
 }
