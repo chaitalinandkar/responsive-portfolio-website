@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.png";
-import "./NavigationBar.css";
+import "./CSS/NavigationBar.css";
 
 export default function NavigationBar() {
   console.log(logo);

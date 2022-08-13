@@ -1,0 +1,51 @@
+.Contact{
+  padding: 50px 0;
+}
+.sub-title{
+  float: inline-start;
+}
+.contact-left{
+  flex-basis: 45%;
+}
+.contact-right {
+  flex-basis: 50%;
+}
+.contact-left span{
+  margin-top: 0px;
+  font-size: 25px;
+
+}
+.contact-left p i{
+  color: #ff004f;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.button-submit{
+  display: inline-block;
+  background: #ff004f;
+  border: none;
+  margin: 20px 0;
+  font-size: 18px;
+  color: white;
+  padding: 14px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button-submit:hover{
+  box-shadow: 0 0 6px 6px rgba(190, 114, 114, 0.317);
+}
+.contact-right form{
+  width: 100%;
+}
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #a5a4a45f;
+  padding: 15px;
+  margin: 15px 0;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
