@@ -35,7 +35,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <a href="/" className="button-see-more">See More</a>
+        <a href={"/servicepage"} className="button-see-more">See More</a>
       </div>
     </div>
   );

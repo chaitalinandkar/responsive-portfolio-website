@@ -11,7 +11,8 @@ export default function Contact() {
             <h1 className="fw-bold mb-4">Contact Me</h1>
             <p><i class="fa-solid fa-envelope"></i><span>astrologeradityavarma@gmail.com</span></p>
             <p><i class="fa-solid fa-phone"></i><span> +1 (408) 549-5475</span></p>
-            <p><i class="fa-solid fa-location-dot"></i><span>Location</span></p>
+            <p><i className="fa-solid fa-location-dot "></i><span className="location">1508 Woodmeadow Ct, San Jose, CA 95131</span></p>
+            <p><span className="ms-5">United States</span></p>
           </div>
 
           <div className="col contact-right">

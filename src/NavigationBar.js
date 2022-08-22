@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.png";
 import "./CSS/NavigationBar.css";
 
+
 export default function NavigationBar() {
   console.log(logo);
   return (
@@ -12,11 +13,9 @@ export default function NavigationBar() {
           <li><a href="/">Home</a></li>
           <li><a href="/">About</a></li>
           <li><a href="/">Service</a></li>
-          <li><a href="/">Portfolio</a></li>
           <li><a href="/">Contact</a></li>
         </ul>
       </nav>
-      
     </div>
   );
 }
