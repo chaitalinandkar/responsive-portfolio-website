@@ -12,10 +12,9 @@
   position: relative;
   overflow: hidden;
 }
-.black-magic {
-  width: 400px;
-  height: 200px;
-  border-radius: 10px;
+.service > .relationshipProblemImage{
+  width: 650px;
+  height: 300px;
 }
 .service img{
   width: 100%;

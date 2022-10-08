@@ -8,7 +8,7 @@ export default function About() {
       <div className="about-container">
         <div className="row">
           <div className="about-col-1">
-            <h1 className="sub-title">About Me</h1>
+            <h1 className="sub-title mb-5">About Me</h1>
             <p>I'm Master Aditya Varmaji and I'm a Best Indian Astrologer in California Psychic reader, spiritual healer.
               I provide services to the people of United States (USA) and Canada. I have more than 68 years of experience in this vedic field.
               With my assistance more than lakhs of people has benefited. I help individuals in resolving both personal and professional problems.

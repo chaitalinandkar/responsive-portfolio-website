@@ -1,14 +1,15 @@
 .NavigationBar{
-  padding: 10px 5%;
+  padding: 10px 0;
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 10px 50px;
-  background-color: white;
 
 }
 .logo{
-  max-width: 250px;
+  /* max-width: 250px; */
+  display: flex;
+  max-width: 120px;
+  object-fit: contain;
 }
 .NavigationBar nav{
   display: flex;
@@ -25,7 +26,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: black;
-  font-size: 20px;
+  /* font-size: 45px; */
   position: relative;
 }
 

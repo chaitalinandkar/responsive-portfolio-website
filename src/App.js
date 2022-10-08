@@ -1,24 +1,28 @@
-
-import NavigationBar from './NavigationBar';
-import Header from './Header';
-import About from './About';
-import Services from './Services';
-import ServiceSatisfaction from './ServiceSatisfaction';
-import Contact from "./Contact";
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './CSS/App.css';
+import ContactPage from './ContactPage';
+import ServicePage from './ServicePage'
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-        <NavigationBar />
-        <Header />
-        <About />
-        <Services />
-        <ServiceSatisfaction />
-        <Contact />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path='servicePage' element={<ServicePage />} />
+        </Routes>
+        <Routes>
+          <Route path='contactPage' element={<ContactPage />} />
+        </Routes>
+      </Router>
+
     </div>
     
   );
 }
 
 export default App;
+
