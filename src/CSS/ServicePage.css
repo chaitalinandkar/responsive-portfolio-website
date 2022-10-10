@@ -1,10 +1,7 @@
 .service--container > .row {
   margin-bottom: 20px;
 }
-.service--container>.row>.col-sm > img{
-  padding: 0px;
+.service--container>.row>.col-sm{
+  margin-top: 20px;
 }
-.service--container >.row >.col-sm > img{
-  display: block;
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
-}
+

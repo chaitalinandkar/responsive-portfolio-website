@@ -1,44 +1,71 @@
+ .carousel-container{
+  width: 100%;
+  margin-left: 0;
+ }
  .header-image{
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: cover;
-  margin: 0px 30px 0px 150px;
-  max-width: 100%;
-  max-height: 500px;
-  
-}
-.col-4{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+ }
+
+/* .col-4{
   flex-basis: 35%;
 }
 .col-8 {
   flex-basis: 60%;
-}
-.row{
+} */
+/* .row{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-}
+} */
 .header-details{
   text-align: center;
-  margin-left: 70px;
-}
- .header-details h1{
-  font-size: 30px; 
+  overflow: hidden;
+  margin: 60px 0;
 }
  .header-details h2{
-  font-size: 50px;
+  font-size: 40px;
   color: rgb(240, 53, 125);
   transition: 0.5s;
+  
 }
-.header-details h2:hover{
+/* .header-details h2:hover{
   font-weight: 700;
   transform: translateX(10px);
-  font-size: 55px;
-}
+  font-size: 45px;
+} */
  .header-details p {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
+  color: rgb(7, 70, 80);
+}
+@media (max-width: 700px) {
+  .header-image {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -100px;
+  }
+  .header-details{
+    margin: 30px 0 0 0;
+    width: 300px;
+    position: relative;
+    left: -100px;
+  }
+  .header-details h2 {
+    font-size: 20px;
+  }
+  .header-details p {
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+  }
+  
 }
 .Header{
   position: relative;
@@ -50,29 +77,19 @@
   height: 600px;
   object-fit: contain;
   background-color: #FEEFE6;
+  position: relative;
 }
 .slider-text > h5{
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   color: rgb(49, 98, 141);
   background-color: white;
   width: fit-content;
-  position: relative;
-  animation: mymove1 5s infinite;
+  position: absolute;
+  bottom: 30px;
+  left: 250px;
 }
-.slider-title{
-  animation-timing-function: linear;
-}
-@keyframes mymove1 {
-  from {
-    left: 0px;
-  }
-
-  to {
-    left: 600px;
-  }
-}
-
+/* 
 .slider-text > p {
   font-size: 30px;
   font-weight: 500;
@@ -81,16 +98,5 @@
   width: fit-content;
   position: relative;
   animation: mymove2 5s infinite;
-}
-.slider-desc {
-  animation-timing-function: linear;
-}
-@keyframes mymove2 {
-  from {
-    right: -700px;
-  }
-
-  to {
-    right: -420px;
-  }
-}
+  text-align: center;
+} */

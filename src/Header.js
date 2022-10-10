@@ -4,13 +4,12 @@ import ganesha from "./Images/ganesha.jpeg";
 import spiritualHealing from "./Images/spiritualHealing.jpeg"
 import childlessProblemSolution from "./Images/childlessProblemSolution.jpeg"
 import businessInvestment from "./Images/businessInvestment.jpeg"
-import childface from "./Images/childface.webp"
 
 export default function Header() {
   return (
     <div className="Header">
 
-      <div className="">
+      <div className="carousel-container d-none d-lg-block ">
         <div id="carouselExampleDark" class="carousel slide carousel-dark" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -22,8 +21,7 @@ export default function Header() {
               <img src={childlessProblemSolution} class="d-block w-100" alt="childlessProblemSolution"/>
               <div class="carousel-caption d-none d-md-block">
                 <div className="slider-text">
-                  <h5 className="slider-title">Childless Problem Solution</h5>
-                  <p className="slider-desc">Some representative placeholder content for the first slide.</p>
+                  <h5 className="">Childless Problem Solution</h5>
                 </div>
 
               </div>
@@ -31,9 +29,8 @@ export default function Header() {
             <div class="carousel-item home-page-slider" data-bs-interval="2000">
               <img src={businessInvestment} class="d-block w-100" alt="businessInvestment"/>
               <div class="carousel-caption d-none d-md-block">
-                <div className="slider-text">
+                <div className="slider-text text-center">
                   <h5>Business Investment Guidance</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
             </div>
@@ -42,7 +39,6 @@ export default function Header() {
               <div class="carousel-caption d-none d-md-block">
                 <div className="slider-text">
                   <h5>Spiritual Healing Solution</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
                 </div>
               </div>
             </div>
@@ -57,20 +53,27 @@ export default function Header() {
           </button>
         </div>
       </div>
-
-      <div className="row">
-        <div className='col-4'>
-          <img src={ganesha} className='header-image img-fluid' alt='ganesha idol'></img>
-        </div>
-        <div className="col-8">
-          <div className="header-details">
-            {/* <h1>Hi, I am </h1> */}
-            <h2>Welcome to The Best Indian Astrologer</h2>
-            <p>Master Aditya Varma</p>
+      
+      <div className="header-container">
+        {/* <div className="row"> */}
+          <div className=''>
+            <img src={ganesha} className='header-image' alt='ganesha idol'></img>
           </div>
-          
-        </div>
+          <div className="">
+            <div className="header-details">
+              <h2>Welcome to The Best Indian Astrologer</h2>
+              <p>Master Aditya Varma</p>
+            </div>
+          {/* </div> */}
       </div>
+      
+      {/* <div class="top-section bg-light d-none d-lg-block">
+        <p class="text-center">Welcome to The Best Indian Astrologer</p>
+        <h3 class="text-center">Master Aditya Varma</h3>
+      </div> */}
+        
+      </div>
+      
     </div>
       
   );

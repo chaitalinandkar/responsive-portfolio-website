@@ -8,10 +8,10 @@ export default function Services() {
   return (
     <div className="Services">
       <div className="container">
-        <h1 className="sub-title">My Services</h1>
+        <h1 className="sub-title text-center fw-bold">My Services</h1>
         <div className="service-list">
           <div className="service">
-            <img src={relationProblem} className="img-fluid " alt="relationshipProblem"></img>
+            <img src={relationProblem} className=" " alt="relationshipProblem"></img>
             <div className="layer">
               <h3>Relationship Problem Solution</h3>
               <a href="/servicePage"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -19,7 +19,7 @@ export default function Services() {
           </div>
 
           <div className="service">
-            <img src={palmReading} className="img-fluid" alt="negativeEnergy"></img>
+            <img src={palmReading} className="" alt="negativeEnergy"></img>
             <div className="layer">
               <h3>Palm Reading</h3>
               <a href="/servicePage"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -27,7 +27,7 @@ export default function Services() {
           </div>
 
           <div className="service">
-            <img src={mangalikDoshaProblem} className="img-fluid" alt="psychicReading"></img>
+            <img src={mangalikDoshaProblem} className="" alt="psychicReading"></img>
             <div className="layer">
               <h3>Mangalik Dosha Problem Solution</h3>
               <a href="/servicePage"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>

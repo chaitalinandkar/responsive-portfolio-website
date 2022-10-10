@@ -1,15 +1,15 @@
 .Contact{
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 .sub-title{
   float: inline-start;
 }
-.contact-left{
+/* .contact-left{
   flex-basis: 45%;
 }
 .contact-right {
   flex-basis: 50%;
-}
+} */
 .contact-left span{
   margin-top: 0px;
   font-size: 25px;
@@ -51,4 +51,12 @@ form input, form textarea{
   color: white;
   font-size: 18px;
   border-radius: 10px;
+}
+@media (max-width: 570px){
+  .col > p >  i {
+    font-size: 18px;
+  }
+  .col > p > span {
+    font-size: 18px;
+  }
 }

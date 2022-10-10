@@ -8,18 +8,10 @@ export default function NavigationBar() {
   console.log(logo);
   return (
     <div className="NavigationBar">
-      {/* <nav>
-        <img src={logo} className="logo" alt="Logo"></img>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Service</a></li>
-          <li><a href="/">Contact</a></li>
-        </ul>
-      </nav> */}
-      <nav className="navbar navbar-expand-lg bg-light fs-4">
+      
+      <nav className="navbar navbar-expand-lg bg-light fs-4 p-3">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#"><img src={logo} className="logo" alt="Logo"></img></a>
+          <a className="navbar-brand website-logo" href="/"><img src={logo} className="logo" alt="Logo"></img></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -39,7 +31,7 @@ export default function NavigationBar() {
               
               <Link to='/contactPage'>
                 <li className="nav-item">
-                  <a className="nav-link" href="">Contact</a>
+                  <a className="nav-link" href="/">Contact</a>
                 </li>
               </Link>
               

@@ -35,7 +35,7 @@ export default function ServicePage() {
         <div className="service-list">
           <div className="service--container">
             <div className="row mt-5">
-              <div className="col-sm mt-5">
+              <div className="col-sm">
                 <div className="service">
                   <img src={relationProblem} className="img-fluid relationshipProblemImage" alt="relationshipProblem"></img>
                   <div className="layer">
@@ -43,7 +43,7 @@ export default function ServicePage() {
                   </div>
                 </div>
               </div>
-              <div className="col-sm mt-5">
+              <div className="col-sm">
                 <div className="service">
                   <img src={palmReading} className="img-fluid" alt="negativeEnergy"></img>
                   <div className="layer">
@@ -51,7 +51,7 @@ export default function ServicePage() {
                   </div>
                 </div>
               </div>
-              <div className="col-sm mt-5">
+              <div className="col-sm">
                 <div className="service">
                   <img src={mangalikDoshaProblem} className="img-fluid" alt="psychicReading"></img>
                   <div className="layer">
@@ -62,7 +62,7 @@ export default function ServicePage() {
             </div>
 
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className="service">
                   <img src={astrology} className="img-fluid " alt="astrology"></img>
                   <div className="layer">
@@ -89,7 +89,7 @@ export default function ServicePage() {
             </div>
 
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className="service">
                   <img src={careerProblem} className="img-fluid " alt="careerProblem"></img>
                   <div className="layer">
@@ -116,7 +116,7 @@ export default function ServicePage() {
             </div>
 
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className="service">
                   <img src={blackMagic} className="img-fluid " alt="blackMagic"></img>
                   <div className="layer">
@@ -143,7 +143,7 @@ export default function ServicePage() {
             </div>
 
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className="service">
                   <img src={enemyProblem} className="img-fluid " alt="enemyProblem"></img>
                   <div className="layer">
@@ -170,7 +170,7 @@ export default function ServicePage() {
             </div>
 
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className="service">
                   <img src={healthIssue} className="img-fluid " alt="healthIssue"></img>
                   <div className="layer">
@@ -197,7 +197,7 @@ export default function ServicePage() {
             </div>
 
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className="service">
                   <img src={lovePsychic} className="img-fluid " alt="lovePsychic"></img>
                   <div className="layer">
@@ -224,7 +224,7 @@ export default function ServicePage() {
             </div>
 
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className="service">
                   <img src={sexualProblem} className="img-fluid " alt="sexualProblem"></img>
                   <div className="layer">

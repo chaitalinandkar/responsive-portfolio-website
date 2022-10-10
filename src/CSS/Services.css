@@ -12,10 +12,10 @@
   position: relative;
   overflow: hidden;
 }
-.service > .relationshipProblemImage{
+/* .service > .relationshipProblemImage{
   width: 650px;
   height: 300px;
-}
+} */
 .service img{
   width: 100%;
   border-radius: 10px;
@@ -83,4 +83,14 @@
   background: linear-gradient(89.7deg, rgb(53, 92, 125) -10.7%, rgb(33, 33, 33) 88.8%);
   color: white;
   transform: scale(1.1);
+}
+@media (max-width: 570px){
+  .service > img{
+    height: 250px;
+  }
+  .button-see-more{
+    padding: 10px 35px;
+    display: flex;
+    margin-bottom: 0;
+  }
 }
